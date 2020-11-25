@@ -2,7 +2,7 @@
 ## Create a file and add the following
 ```
 module "db" {
-source = "./class7"
+source = "vrodi18/instance/rds"
 region = "us-east-2"
 subnet_ids = [
 "subnet-0764b3812f98463f4", 
